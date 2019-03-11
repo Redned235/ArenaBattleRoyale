@@ -1,0 +1,49 @@
+# ArenaBattleRoyale // BattleArena Game
+chest-min-range: 1 # Configures the maximum range of how many items can be in a chest.
+chest-max-range: 5 # Configures the minimum range of how many items can be in a chest.
+chest-refill-timer: 900 # How often (in seconds) the chests should be refilled.
+chest-refill-amounts: 1 # How many times the chests should refill.
+allow-map-breaking: false # Allow if players can destroy the map.
+
+# Here you can define different chest tiers and what items
+# are inside of them. You can define as many tiers as you'd like.
+chests:
+  tier1:
+  - wood_axe 1
+  - iron_axe 1
+  - stone_axe 1
+  - planks 16
+  - stone 2
+  - standstone 12
+  - iron_sword 1
+  - stone_sword 1
+  - iron_axe 1
+  - cobblestone 5
+  - chainmail_leggings 1
+  - chainmail_boots 1
+  - cooked_beef 2
+  - bread 5
+  - iron_ingot 3
+  - stick 2
+  tier2:
+  - iron_sword 1
+  - iron_axe 1
+  - diamond_sword 1
+  - diamond_axe 1
+  - iron_helmet 1
+  - iron_chestplate 1
+  - iron_leggings 1
+  - iron_boots 1
+  - chainmail_chestplate 1
+  - chainmail_leggings 1
+  - golden_apple 1
+  - bread 15
+  tier3:
+  - golden_apple 3
+  - enchanted_golden_apple 1
+  - diamond_sword 1
+  - diamond_axe 1
+  - cooked_beef 16
+  - diamond 4
+  - obsidian 1
+  - endstone 3

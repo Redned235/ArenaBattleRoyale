@@ -1,0 +1,8 @@
+name: ${project.name}
+main: mc.arena.arenaRoyale.ArenaBattleRoyale
+version: ${project.version}
+depend: [BattleArena]
+authors: [Redned]
+command:
+  battleRoyale:
+    aliases: [br]

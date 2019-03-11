@@ -1,0 +1,51 @@
+BattleRoyale:
+  name: BattleRoyale
+  command: battleRoyale
+  prefix: '&c[BattleRoyale]&e'
+  signDisplayName: '&c[BattleRoyale]&e'
+  times:
+    matchTime: 1800 # <-- 30 minutes
+  gameSize:
+    nTeams: 20+
+    teamSize: '1'
+  nLives: '1'
+  victoryCondition: LastManStanding
+  tracking:
+    database: BattleRoyale
+    rated: true
+    useTrackerMessages: false
+  defaults:
+    options:
+    - woolTeams
+  onEnter:
+    options:
+    - storeAll
+  onLeave:
+    options:
+    - restoreAll
+  preReqs:
+    options:
+    - clearInventory
+  onStart:
+    options:
+    - teleportIn
+    - pvpOn
+  onVictory:
+    options:
+    - invincible
+  onComplete:
+    options:
+    - teleportOut
+    - clearInventory
+  onSpawn:
+    options:
+    - health=20.0
+    - hunger=20
+    - deEnchant
+  onDeath:
+    options:
+    - clearInventory
+  winners:
+    options:
+    - health=20.0
+    - hunger=20
