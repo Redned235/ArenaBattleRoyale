@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>mc.arena</groupId>
     <artifactId>arenaRoyale</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>ArenaBattleRoyale</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
