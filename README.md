@@ -24,7 +24,7 @@ Once you have one set up, to add chest locations for your arena, simply just run
 Links
 ------------
 ArenaBattleRoyale Download:
-* (coming soon) (ArenaBattleRoyale on Spigot)
+* https://www.spigotmc.org/resources/arena-battleroyale.65557/ (ArenaBattleRoyale on Spigot)
 
 Official BattlePlugins Discord:
 * [BattlePlugins Dev](https://discord.gg/tMVPVJf): Join this Discord if you need any help with anything related to BattleArena.
