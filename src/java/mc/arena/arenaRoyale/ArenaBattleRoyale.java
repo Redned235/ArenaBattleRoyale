@@ -3,6 +3,7 @@ package mc.arena.arenaRoyale;
 import mc.alk.arena.BattleArena;
 import mc.alk.arena.util.InventoryUtil;
 import mc.alk.arena.util.Log;
+import org.bstats.bukkit.Metrics;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -36,6 +37,8 @@ public class ArenaBattleRoyale extends JavaPlugin {
 
         BattleArena.registerCompetition(this, "BattleRoyale", "battleRoyale", BattleRoyaleArena.class, new BattleRoyaleExecutor());
         Log.info("[" + getName() + "] v" + getDescription().getVersion() + " enabled!");
+
+        new Metrics(this);
     }
 
     @Override
