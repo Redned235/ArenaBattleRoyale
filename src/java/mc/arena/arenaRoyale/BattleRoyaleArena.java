@@ -110,7 +110,7 @@ public class BattleRoyaleArena extends Arena {
         chestInventory.clear();
 
         Random random = new Random();
-        int range = random.nextInt(Defaults.CHEST_MAX_RANGE) + Defaults.CHEST_MIN_RANGE;
+        int range = random.nextInt(Defaults.CHEST_MAX_RANGE - Defaults.CHEST_MIN_RANGE) + Defaults.CHEST_MIN_RANGE;
         List<ItemStack> items = itemMap.get(chest.getTier());
         for (int i = 0; i < range; i++) {
             ItemStack randomItem = items.get(random.nextInt(items.size()));
